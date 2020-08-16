@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.vue');
-});
-
-// Route::get('/{any}', function () {
+// Route::get('/', function () {
 //     return view('layouts.vue');
-// })->where('any', '.*');
+// });
+
+Route::get('/{any}', function () {
+    return view('layouts.vue');
+})->where('any', '.*');

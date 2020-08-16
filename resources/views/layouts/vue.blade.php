@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-        <link rel="stylesheet" href="{{ asset('./css/app.css') }}">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -28,7 +28,7 @@
                     Laravel + Vue + Tailwind + PurgeCSS
                 </div>
                 <div id="app"></div>
-                <script src="{{ asset('js/app.js') }}"></script>
+                <script src="{{ mix('js/app.js') }}"></script>
             </div>
         </div>
     </body>
